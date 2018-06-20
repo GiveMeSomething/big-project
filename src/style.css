@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Menu Trang Web*/
+.MenuItems {
+    width: 100px;
+    height: 20px;
+    border: hidden;
+    float: left;
+    text-align: center;
+    position: relative;
+    padding: 2px 0;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 900;
+    color: white;
+    display: inline-block;
+
+}
+
+.MenuItems::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform-origin: center;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease-out;
+}
+
+.MenuItems:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.MenuItems:hover::before {
+    transform-origin: center;
+    transform: scale(1, 1);
+}
+
+#logoHang {
+    width: 15%;
+    position: absolute;
+    top: 10px;
+    left: 42.5%
+
+}
+
+#logoSanPham {
+    position: fixed;
+    margin-left: 55px;
+    margin-top: 20px;
+    height: 20px;
+}
+
+#headMenu {
+    width: 100%;
+    position: absolute;
+    background-color: black;
+}
+
+#menu {
+    background-color: black;
+    position: fixed;
+    top: 70px;
+}
+
+/*Man Hinh Vo Cuc*/
+#voCuc {
+    position: absolute;
+    top: 100px;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    width: 170px;
+    font-size: 17px;
+    display: inline;
+}
+
+video {
+    top: 0;
+    left: 0;
+}
+
+#myPhone {
+    position: absolute;
+    width: 80%;
+    z-index: 300000;
+    margin-left: 10%;
+}
+
+#gioiThieu {
+    padding-left: 21%;
+}
+
+#voCucHead {
+    height: fit-content;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: white;
+    display: inline-block;
+    padding-left: 20%;
+}
+
+#trai_nghiem {
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+
+#thiết_kế {
+    font-size: 25px;
+}
+
+#mhvc {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+#ahihi {
+    padding: 0 100px 0 100px;
+}
+
+#d {
+    padding-left: 460px;
+}
+
+#xuong {
+    padding-top: 30px;
+    font-weight: initial;
+    font-size: 20px;
+}
+
+#hihi {
+    font-weight: initial;
+    font-size: 17px;
+}
+
+
+
+
+
