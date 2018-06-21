@@ -5,6 +5,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    width: 170px;
+    font-size: 17px;
+    display: inline;
+}
+
 /*Menu Trang Web*/
 .MenuItems {
     width: 100px;
@@ -133,17 +146,9 @@ body {
     top: 1500px;
 }
 
-ul li {
-    list-style-type: none;
-    float: left;
-    width: 170px;
-    font-size: 17px;
-    display: inline;
-}
-
 #videoPlayer {
-    top: 0;
-    left: 0;
+    width: 100%;
+    position: relative;
 }
 
 #myPhone {
@@ -200,6 +205,75 @@ ul li {
     font-size: 17px;
 }
 
+/*S PEN*/
 
+#spen {
+    position: absolute;
+    top: 3300px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
 
+#textSPen {
+    position: absolute;
+    top: 150px;
+    width: 80%;
+    left: 10%;
+}
 
+#anhSPen {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+#headerSP {
+    font-size: 60px;
+}
+
+#introSP {
+    font-weight: initial;
+    font-size: 22px;
+}
+
+#noteSP {
+    font-weight: initial;
+    font-size: 18px;
+}
+
+#moreSp {
+    padding-top: 50px;
+}
+
+#header2SP {
+    font-size: 45px;
+}
+
+#samsung-note {
+    padding: 0 130px 0 130px;
+}
+
+#listSP {
+    position: absolute;
+    left: 275px;
+}
+
+.itemSP {
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: initial;
+}
+
+#phoneSP {
+    padding-top: 35px;
+}
+
+#moreSP2 {
+    padding-top: 20px;
+    font-size: 20px;
+}
