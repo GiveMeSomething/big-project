@@ -80,7 +80,7 @@ ul li {
     z-index: 10;
 }
 
-#logoSanPham {
+#logoProduct {
     margin-left: 60px;
     margin-top: 20px;
     height: 20px;
@@ -181,12 +181,12 @@ ul li {
     font-size: 25px;
 }
 
-#mhvc {
+#header_voCuc {
     font-size: 60px;
     margin-top: 10px;
 }
 
-#ahihi {
+#icon_voCuc {
     padding: 0 100px 0 100px;
 }
 
@@ -194,13 +194,13 @@ ul li {
     padding-left: 460px;
 }
 
-#xuong {
+#introVoCuc {
     padding-top: 30px;
     font-weight: initial;
     font-size: 20px;
 }
 
-#hihi {
+#introVoCuc_2 {
     font-weight: initial;
     font-size: 17px;
 }
@@ -226,7 +226,7 @@ ul li {
 
 #anhSPen {
     position: absolute;
-    left: 0px;
+    left: 0;
     width: 100%;
     z-index: -1;
 }
@@ -269,11 +269,34 @@ ul li {
     font-weight: initial;
 }
 
+#sPenPart_2 {
+    position: absolute;
+    width: 100%;
+    top: -200px;
+    visibility: hidden;
+}
+
+#imageSPen {
+    position: absolute;
+    width: 100%;
+    top: 1500px;
+}
+
+#butSPen {
+    width: 400px;
+    height: 130px;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
+
 #phoneSP {
     padding-top: 35px;
+    width: 750px;
+    height: 340px;
 }
 
 #moreSP2 {
-    padding-top: 20px;
+    padding-top: 100px;
     font-size: 20px;
 }
