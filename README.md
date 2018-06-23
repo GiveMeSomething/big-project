@@ -12,6 +12,7 @@ Make a website that look like Samsung Note8 page (Link: https://www.samsung.com/
 
 4. S Pen Intro
 
+
 * Missing 
 
 1. Camera
