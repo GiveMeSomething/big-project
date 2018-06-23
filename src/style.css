@@ -96,10 +96,10 @@ ul li {
 }
 
 /*Lam  Phai Lon*/
-#lamPhaiLon
-{
+#lamPhaiLon {
     width: 100%;
 }
+
 #backgroundLPL {
     position: absolute;
     top: 108px;
