@@ -23,6 +23,21 @@ ul li {
     height: 100%;
 }
 
+.header {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.info {
+
+}
+
+.note {
+    padding-top: 30px;
+    font-weight: initial;
+    font-size: 20px;
+}
+
 /*Menu Trang Web*/
 .MenuItems {
     width: 100px;
@@ -155,12 +170,13 @@ ul li {
 #videoPlayer {
     width: 100%;
     position: relative;
+    z-index: -2;
 }
 
 #myPhone {
     position: absolute;
     width: 80%;
-    z-index: 1;
+    z-index: -1;
     margin-left: 10%;
 }
 
@@ -286,6 +302,7 @@ ul li {
     position: absolute;
     width: 100%;
     top: 1500px;
+    z-index: -1;
 }
 
 #butSPen {
@@ -305,4 +322,64 @@ ul li {
 #moreSP2 {
     padding-top: 100px;
     font-size: 20px;
+}
+
+/*Phan Camera*/
+
+#camera {
+    position: absolute;
+    top: 4730px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+#text1_Camera {
+    padding-top: 100px;
+}
+
+#text2_Camera {
+    margin-top: -300px;
+    visibility: hidden;
+}
+
+#backgroundCamera {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.icon_camera {
+    padding: 0 62px 0 62px;
+}
+
+.icon_camera_chu {
+    float: left;
+    list-style-type: none;
+    padding-left: 60px;
+    font-size: 18px;
+    font-weight: initial;
+}
+
+#canchinh_icon_camera {
+    padding-left: 350px;
+}
+
+#imageCamera {
+    position: absolute;
+    top: 2000px;
+    left: 460px;
+    z-index: -1;
+}
+
+#timhieuthem_camera {
+    font-size: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 5300px;
+    left: 670px;
 }
