@@ -63,7 +63,6 @@ function changeTextCamera() {
 
         imageCamera.style.transform = 'translateY(700px)';
     }
-
 }
 
 function alertPosition() {
