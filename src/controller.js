@@ -19,49 +19,49 @@ function playAnimation() {
 
     videoVoCUc.play();
     videoVoCUc.style.transform = 'scale(0.5)';
-    phoneVoCuc.style.transform = 'translateY(-850px) scale(0.75)';
+    phoneVoCuc.style.transform = 'translateY(-750px) scale(0.75)';
 
 }
 
 function changeTextSPen() {
-    if (window.pageYOffset > 3550 && window.pageYOffset < 4500) {
+    if (window.pageYOffset > 3600 && window.pageYOffset < 4500) {
         imageSPen.style.transition = 'transform 1s';
-        imageSPen.style.transform = 'translateY(-830px)';
+        imageSPen.style.transform = 'translateY(-530px)';
 
         sPenPart_1.style.visibility = 'hidden';
 
         sPenPart_2.style.visibility = 'visible';
-        sPenPart_2.style.transition = 'transform 1s';
-        sPenPart_2.style.transform = 'translateY(500px)';
+        sPenPart_2.style.transition = 'transform 1.5s';
+        sPenPart_2.style.transform = 'translateY(800px)';
     }
     else {
-        imageSPen.style.transform = 'translateY(830px)';
+        imageSPen.style.transform = 'translateY(530px)';
 
         sPenPart_1.style.visibility = 'visible';
 
         sPenPart_2.style.visibility = 'hidden';
-        sPenPart_2.style.transform = 'translateY(-500px);'
+        sPenPart_2.style.transform = 'translateY(-800px);'
     }
 }
 
 function changeTextCamera() {
-    if (window.pageYOffset > 5400 && window.pageYOffset < 5800) {
+    if (window.pageYOffset > 5500 && window.pageYOffset < 6600) {
         cameraPart_1.style.visibility = 'hidden';
 
         cameraPart_2.style.transition = 'transform 1s';
         cameraPart_2.style.visibility = 'visible';
-        cameraPart_2.style.transform = 'translateY(300px)';
+        cameraPart_2.style.transform = 'translateY(500px)';
 
         imageCamera.style.transition = 'transform 1s';
-        imageCamera.style.transform = 'translateY(-700px)';
+        imageCamera.style.transform = 'translateY(-500px)';
     }
     else {
         cameraPart_1.style.visibility = 'visible';
 
         cameraPart_2.style.visibility = 'hidden';
-        cameraPart_2.style.transform = 'translateY(-300px)';
+        cameraPart_2.style.transform = 'translateY(-500px)';
 
-        imageCamera.style.transform = 'translateY(700px)';
+        imageCamera.style.transform = 'translateY(500px)';
     }
 }
 

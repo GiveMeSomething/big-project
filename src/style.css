@@ -156,9 +156,9 @@ ul li {
 }
 
 #video {
-    width: 100%;
+    width: 200%;
     position: absolute;
-    top: 1080px;
+    top: 1180px;
 }
 
 /*Man Hinh Vo Cuc*/
@@ -188,10 +188,11 @@ ul li {
     height: fit-content;
     text-align: center;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 100px;
     color: white;
     display: inline-block;
-    padding-left: 20%;
+    font-size: 25px;
+    margin-left: 27%;
 }
 
 #trai_nghiem {
@@ -281,7 +282,7 @@ ul li {
 
 #listSP {
     position: absolute;
-    left: 275px;
+    left: 28%;
 }
 
 .itemSP {
@@ -328,7 +329,7 @@ ul li {
 
 #camera {
     position: absolute;
-    top: 4730px;
+    top: 4930px;
     color: white;
     width: 100%;
     text-align: center;
@@ -354,25 +355,23 @@ ul li {
 }
 
 .icon_camera {
-    padding: 0 62px 0 62px;
+    padding: 0 82px 0 52px;
 }
 
 .icon_camera_chu {
-    float: left;
-    list-style-type: none;
-    padding-left: 60px;
+    padding-left: 30px;
     font-size: 18px;
     font-weight: initial;
 }
 
 #canchinh_icon_camera {
-    padding-left: 350px;
+    padding-left: 510px;
 }
 
 #imageCamera {
     position: absolute;
-    top: 2000px;
-    left: 460px;
+    top: 2050px;
+    left: 32%;
     z-index: -1;
 }
 
