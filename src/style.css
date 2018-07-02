@@ -28,10 +28,6 @@ ul li {
     margin-top: 10px;
 }
 
-.info {
-
-}
-
 .note {
     padding-top: 30px;
     font-weight: initial;
@@ -228,6 +224,20 @@ ul li {
     font-size: 17px;
 }
 
+#voCucIntro {
+    width: 100%;
+    background: black;
+}
+
+#phoneDen {
+    width: 20%;
+    left: 40%;
+}
+
+#phoneVang {
+    width: 20%;
+    left: 40%;
+}
 /*S PEN*/
 
 #spen {
@@ -381,4 +391,45 @@ ul li {
     position: absolute;
     top: 5300px;
     left: 670px;
+}
+
+/*Phan Hieu Suat*/
+
+#hieu_suat {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    top: 7000px;
+    background: url("https://image.samsung.com/vn/smartphones/galaxy-note8/images/galaxy-note8_performance_s.jpg");
+    background-size: cover;
+    overflow: visible;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+#hieu_suat_canchinhkhung {
+    padding-top: 950px;
+}
+
+.icon_hieusuat {
+    padding: 0 100px 0 100px;
+}
+
+.icon_hieusuat_chu {
+    float: left;
+    list-style-type: none;
+    padding: 0 50px 0 50px;
+    font-size: 18px;
+    font-weight: initial;
+}
+
+#canchinh_icon_hieusuat {
+    padding-left: 560px;
+}
+
+.anh_hieusuat {
+    padding-top: 50px;
 }
