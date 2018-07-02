@@ -1,0 +1,418 @@
+body {
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-top: -20px;
+}
+
+/*Menu*/
+.MenuItems {
+    width: 100px;
+    height: 20px;
+    border: hidden;
+    float: left;
+    text-align: center;
+    position: relative;
+    padding: 2px 0;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 900;
+    color: white;
+    display: inline-block;
+
+}
+
+.MenuItems::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform-origin: center;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease-out;
+}
+
+.MenuItems:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.MenuItems:hover::before {
+    transform-origin: center;
+    transform: scale(1, 1);
+}
+
+#logoHang {
+    width: 15%;
+    position: absolute;
+    left: 42.5%;
+    z-index: 20;
+
+}
+
+#goWithScroll {
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: black;
+    z-index: 10;
+}
+
+#logoProduct {
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 20px;
+}
+
+#menu {
+    margin-top: 30px;
+}
+
+/*Web Content*/
+
+#head {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    top: 200px;
+    color: black;
+}
+
+#headDesign {
+    position: absolute;
+    top: 500px;
+    left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#liner-1 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 600px;
+    bottom: 5px;
+    height: 4px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+table {
+    font-size: 27px;
+    font-weight: lighter;
+    table-layout: fixed;
+    width: 80%;
+}
+
+.textItem {
+    width: 20%;
+    font-size: 27px;
+    vertical-align: top;
+}
+
+.big-row-1 {
+    width: 45%;
+    vertical-align: top;
+    font-size: 20px;
+    padding-left: 10%;
+}
+
+.big-row-2 {
+    width: 55%;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+#designColor {
+    position: absolute;
+    top: 650px;
+    left: 5%;
+}
+
+#liner-2 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 1050px;
+    bottom: 5px;
+    height: 4px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#phoneInfo {
+    position: absolute;
+    top: 1100px;
+    left: 5%;
+}
+
+#liner-3 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 1250px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#display {
+    position: absolute;
+    top: 1300px;
+    left: 5%;
+}
+
+#liner-4 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2100px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#camera {
+    position: absolute;
+    top: 2200px;
+    left: 5%;
+}
+
+#liner-5 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3400px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#storage {
+    position: absolute;
+    top: 3500px;
+    left: 5%;
+}
+
+#noteForStorage {
+    position: absolute;
+    top: 3700px;
+    left: -1%;
+}
+
+#liner-6 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3800px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#supportedNetwork {
+    position: absolute;
+    top: 3900px;
+    left: 5%;
+}
+
+#liner-7 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4650px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#connection {
+    position: absolute;
+    top: 4700px;
+    left: 5%;
+}
+
+#liner-8 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5450px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#systemOS {
+    position: absolute;
+    top: 5500px;
+    left: 5%;
+}
+
+#liner-9 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5650px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#info {
+    position: absolute;
+    top: 5700px;
+    left: 5%;
+}
+
+#liner-10 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5850px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#sensor {
+    position: absolute;
+    top: 5900px;
+    left: 5%;
+}
+
+#liner-11 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 6150px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#technicalProp {
+    position: absolute;
+    top: 6200px;
+    left: 5%;
+}
+
+#liner-12 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 6300px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#battery {
+    position: absolute;
+    top: 6350px;
+    left: 5%;
+}
+
+#liner-13 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7000px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#video-and-sound {
+    position: absolute;
+    top: 7050px;
+    left: 5%;
+}
+
+#video-and-sound .big-row-1 {
+    width: 46%;
+}
+
+#liner-14 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7400px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#application {
+    position: absolute;
+    top: 7450px;
+    left: 5%;
+}
+
+#application .big-row-1 {
+    width: 46%;
+}
+
+#liner-15 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7800px;
+    bottom: 5px;
+    height: 1px;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+}
+
+#closeButton {
+    position: absolute;
+    top: 7850px;
+}
+
+#support-line {
+    position: absolute;
+    top: 8000px;
+}
+
+
