@@ -238,6 +238,7 @@ ul li {
     width: 20%;
     left: 40%;
 }
+
 /*S PEN*/
 
 #spen {
@@ -444,51 +445,61 @@ ul li {
     background: white;
     color: black;
     text-align: center;
-    font-size:25px;
+    font-size: 25px;
     font-weight: bold;
     padding-top: 100px;
 }
+
 #phonecong a {
     text-decoration: none;
     color: black;
 }
+
 .icon_phonecong {
     padding: 0px 57px 0px 52px;
 }
+
 .icon_phonecong_chu {
     float: left;
     list-style-type: none;
-    font-size:18px;
+    font-size: 18px;
     font-weight: initial;
 }
+
 .anh_mayquayphoncong {
     padding: 178px 35px 0px 35px;
 }
+
 #anh_manhinhphoncong {
-    z-index:1;
+    z-index: 1;
     position: absolute;
     top: 875px;
     left: 900px;
     right: 517px;
 }
+
 #anh_gearphoncong {
-    z-index:2;
+    z-index: 2;
     position: absolute;
     top: 1050px;
     right: 35%;
 }
+
 #can_chinh_SmartSwitch {
     padding-top: 120px;
 }
+
 #l {
     border-bottom: solid 2px;
-    display: inline-block;       /*trên 1 dòng */
+    display: inline-block; /*trên 1 dòng */
     padding: 13px 20px;
     font-size: 18px;
 }
+
 #l:hover {
     color: dodgerblue;
 }
+
 .can_chinh_anh_phonecong {
     padding: 35px 0px 80px 0px;
 }
