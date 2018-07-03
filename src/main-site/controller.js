@@ -11,9 +11,9 @@ const imageCamera = document.getElementById("imageCamera");
 const cameraPart_1 = document.getElementById("text1_Camera");
 const cameraPart_2 = document.getElementById("text2_Camera");
 
-window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-};
+// window.onbeforeunload = function () {
+//     window.scrollTo(0, 0);
+// };
 
 function playAnimation() {
     phoneVoCuc.style.top = '1800px';
