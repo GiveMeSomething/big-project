@@ -433,3 +433,62 @@ ul li {
 .anh_hieusuat {
     padding-top: 50px;
 }
+
+/*Phone Plus*/
+
+#phonecong {
+    height: 3360px;
+    background: white;
+    color: black;
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+#phonecong a {
+    text-decoration: none;
+    color: black;
+}
+.icon_phonecong {
+    padding: 0px 57px 0px 52px;
+}
+.icon_phonecong_chu {
+    float: left;
+    list-style-type: none;
+    padding-left: 110px;
+    font-size:18px;
+    font-weight: initial;
+}
+#canchinh_icon_phonecong {
+    padding-left: 388px;
+}
+.anh_mayquayphoncong {
+    padding: 178px 35px 0px 35px;
+}
+#anh_manhinhphoncong {
+    z-index:1;
+    position: absolute;
+    top: 9176px;
+    right: 517px;
+}
+#anh_gearphoncong {
+    z-index:2;
+    position: absolute;
+    top: 9360px;
+    right: 471px;
+}
+#can_chinh_SmartSwitch {
+    padding-top: 120px;
+}
+#l {
+    border-bottom: solid 2px;
+    display: inline-block;       /*trên 1 dòng */
+    padding: 13px 20px;
+    font-size: 18px;
+}
+#l:hover {
+    color: dodgerblue;
+}
+.can_chinh_anh_phonecong {
+    padding: 35px 0px 80px 0px;
+}
