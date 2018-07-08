@@ -1,0 +1,377 @@
+body {
+    color: white;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+}
+
+#camera {
+    height: 1500px;
+    background: url("https://image.samsung.com/vn/smartphones/galaxy-note8/camera/images/galaxy-note8-camera_dual-bg_s.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.header {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.icon_camera_div1 {
+    padding: 0px 48px 0px 48px;
+}
+
+.icon_camera_div1_chu {
+    list-style-type: none;
+    float: left;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: initial;
+}
+
+#canchinh_icon_camera {
+    padding-left: 461px;
+}
+
+.info_header {
+    padding-top: 50px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.subheader {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#anh_camera {
+    padding: 102px 0px 0px 334px;
+}
+
+#camera_div2 {
+    background: black;
+    text-align: center;
+    height: 2900px;
+    width: 100%;
+    color: white;
+    font-size: 19px;
+    font-weight: initial;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.note {
+    font-size: 17px;
+    padding-bottom: 50px;
+}
+
+.canchinh_anhphiasau_camera {
+    padding: 100px 0px 100px 0px;
+}
+
+.icon_camera_div2 {
+    padding: 50px 30px 0px 30px;
+}
+
+.icon_camera_div2_chu {
+    float: left;
+    padding: 0px 35px 10px 63px;
+    list-style-type: none;
+}
+
+#canchinh_icon_camera_div2_chu {
+    padding-left: 624px;
+}
+
+#camera_div3 {
+    background: url("https://image.samsung.com/vn/smartphones/galaxy-note8/camera/images/galaxy-note8-camera_night_bg.jpg");
+    text-align: center;
+    height: 1320px;
+    width: 100%;
+    color: white;
+    font-size: 19px;
+    font-weight: initial;
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+.icon_camera_div3 {
+    padding: 0px 50px 10px 45px;
+}
+
+.icon_camera_div3_chu {
+    list-style-type: none;
+    float: left;
+    padding: 0px 19px 0px 22px;
+}
+
+#canchinh_icon_camera_div3_chu {
+    padding-left: 458px;
+}
+
+.ghepanh {
+    z-index: 1;
+    position: absolute;
+    top: 5354px;
+    right: 420px;
+}
+
+#camera_div4 {
+    height: 5000px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 19px;
+    font-weight: initial;
+}
+
+.icon_camera_div4_1 {
+    padding: 0px 50px 0px 50px;
+}
+
+.icon_camera_div4_chu_1 {
+    list-style-type: none;
+    padding: 0px 27px 100px 17px;
+    float: left;
+}
+
+#canchinh_icon_camera_div4_chu_1 {
+    padding-left: 370px;
+}
+
+.icon_camera_div4_2 {
+    padding: 0px 50px 0px 50px;
+}
+
+.icon_camera_div4_chu_2 {
+    list-style-type: none;
+    padding: 0px 34px 0px 31px;
+    float: left;
+}
+
+#canchinh_icon_camera_div4_chu_2 {
+    padding-left: 486px;
+}
+
+#bat-tron-moi-khoanh-khac {
+    padding-top: 180px;
+}
+
+#camera_div5 {
+    height: 936px;
+    background: url("https://images.samsung.com/is/image/samsung/p5/vn/smartphones/galaxy-note8/camera/galaxy-note8-camera_gallery_img.jpg?$ORIGIN_JPG$");
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 19px;
+    font-weight: initial;
+    overflow: hidden;
+}
+
+.btn-timhieu {
+    border: solid 1px #ccc;
+    border-radius: 26px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-timhieu:hover {
+    background: #ccc;
+    color: #fff;
+}
+
+.Spen-Hieusuat-duoi-cung {
+    padding-top: 404px;
+}
+
+#camera_div7 {
+    background-color: white;
+    height: 1000px;
+    margin-top: -4px;
+}
+
+#liner-1 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12465px;
+    bottom: 5px;
+    height: 0.5px;
+    width: 99%;
+    background-color: lightslategray;
+}
+
+#liner-2 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12513px;
+    bottom: 5px;
+    height: 0.5px;
+    width: 99%;
+    background-color: lightslategray;
+}
+
+#camera_div7 a {
+    color: black;
+    text-decoration: none;
+}
+
+.a {
+    padding-left: 158px;
+    line-height: 5px;
+}
+
+#v {
+    margin: 23px 150px 0px 160px;
+}
+
+#q {
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+#w {
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+#e {
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+#r {
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+#camera_div7 {
+    background-color: white;
+    height: 540px;
+    margin-top: -4px;
+}
+
+#liner-1 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12465px;
+    bottom: 5px;
+    height: 0.5px;
+    width: 99%;
+    background-color: lightslategray;
+}
+
+#liner-2 {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12513px;
+    bottom: 5px;
+    height: 0.5px;
+    width: 99%;
+    background-color: lightslategray;
+}
+
+#camera_div7 a {
+    color: black;
+    text-decoration: none;
+}
+
+.giua-hai-ke-ngang {
+    padding-left: 158px;
+    line-height: 5px;
+}
+
+#footer {
+    margin: 23px 150px 0px 160px;
+}
+
+#cot1 {
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+#cot2 {
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+#cot3 {
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+#cot4 {
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+#camera_div7 a:hover {
+    color: navy;
+}
+.icon-fb-youtube {
+    padding-right: 14px;
+}
+
+.Copyright {
+    font-size: 14px;
+}
+.dandong {
+    color: white;
+}
+
+#camera_div8 {
+    background-color: black;
+    height: 260px;
+    color: white;
+    /*padding-right: 100px;*/
+}
+
+#camera_div8 a {
+    color: white;
+    padding-right: 20px;
+    font-weight: initial;
+    font-size: 15px;
+}
+
+#camera_div8_left {
+    height: 50px;
+    width: 64%;
+    float: left;
+    padding-left: 159px;
+    padding-top: 28px;
+}
+
+#camera_div8_right {
+    height: 50px;
+    width: 25%;
+    float: left;
+    padding-top: 28px;
+}
+
+#camera_div8_3 {
+    padding-left: 160px;
+    font-size: 14px;
+    font-weight: initial;
+}
