@@ -4,6 +4,83 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
 }
+header{
+    margin-top: -20px;
+}
+#camera-site {
+    padding-top: 100px;
+}
+
+.MenuItems {
+    width: 100px;
+    height: 20px;
+    border: hidden;
+    float: left;
+    text-align: center;
+    position: relative;
+    padding: 2px 0;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 900;
+    color: white;
+    display: inline-block;
+
+}
+
+.MenuItems::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform-origin: center;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease-out;
+}
+
+.MenuItems:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.MenuItems:hover::before {
+    transform-origin: center;
+    transform: scale(1, 1);
+}
+
+#logoHang {
+    width: 15%;
+    position: absolute;
+    left: 42.5%;
+    z-index: 20;
+
+}
+
+#goWithScroll {
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: black;
+    z-index: 10;
+}
+
+#logoProduct {
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 20px;
+}
+
+#menu {
+    margin-top: 30px;
+}
+
 
 #camera {
     height: 1500px;
@@ -216,7 +293,7 @@ body {
     content: "";
     display: block;
     position: absolute;
-    top: 12513px;
+    top: 12588px;
     bottom: 5px;
     height: 0.5px;
     width: 99%;
