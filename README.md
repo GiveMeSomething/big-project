@@ -27,3 +27,5 @@ Make a website that look like Samsung Note8 page (Link: https://www.samsung.com/
 
 6. Header
 
+* Dự án còn nhiều chỗ chưa tốt, nhất là về phần responsive design (hiện tại chỉ có thể sử dụng tốt nhất tại 1 kích thước màn hình)
+
