@@ -29,3 +29,5 @@ Make a website that look like Samsung Note8 page (Link: https://www.samsung.com/
 
 * Dự án còn nhiều chỗ chưa tốt, nhất là về phần responsive design (hiện tại chỉ có thể sử dụng tốt nhất tại 1 kích thước màn hình)
 
+* Link dự án : https://givemesomething.github.io/big-project/src/main-site/
+
